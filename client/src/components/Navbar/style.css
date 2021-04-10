@@ -1,0 +1,30 @@
+nav {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+ a:hover {
+    text-decoration: underline;
+    color: white; 
+}
+
+.navbar-brand {
+    font-size: 35px;
+    padding: 18px;
+}
+
+.nav-item {
+    font-size: 25px;
+    padding: 20px;  
+}
+
+.navbar-nav {
+    padding: 20px;
+    margin: 20px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}

@@ -1,0 +1,9 @@
+.img-fluid {
+    width:75%;
+    margin-left: 50px;
+    height: 40%;
+}
+.card-body {
+    width: 70%;
+    margin-left: 50px;
+}
