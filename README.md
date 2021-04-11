@@ -59,9 +59,9 @@
    * you can run by node `npm start` google-books-react-search-21.
 
    # screenshot Image 1
-   * ![google-books-react-search-21](./public/assets/images/head1.png)
-    * ![google-books-react-search-21](./public/assets/images/Res1.png)
-   * ![google-books-react-search-21](./public/assets/images/Res2.png)
+   * ![google-books-react-search-21](./client/public/assets/images/head1.png)
+    * ![google-books-react-search-21](./client/public/assets/images/Res1.png)
+   * ![google-books-react-search-21](./client/public/assets/images/Res2.png)
 
    ## Usage Instructions
    * For this app to run make sure first:-
@@ -94,9 +94,9 @@
    * Screenshot Images 2
  
   
-   * ![google-books-react-search-21](./public/assets/images/Res3.png)
-   * ![google-books-react-search-21](./public/assets/images/Res4.png)
-   * ![google-books-react-search-21](./public/assets/images/Res5.png)
+   * ![google-books-react-search-21](./client/public/assets/images/Res3.png)
+   * ![google-books-react-search-21](./client/public/assets/images/Res4.png)
+   * ![google-books-react-search-21](./client/public/assets/images/Res5.png)
    
    ## Contribution
 
