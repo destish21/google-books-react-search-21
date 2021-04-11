@@ -1,7 +1,7 @@
 {
-  "name": "reacgooglebooks",
+  "name": "google-books-react-search-21",
   "version": "1.0.0",
-  "description": "react-bookstore-21",
+  "description": "Google Books React Search",
   "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
