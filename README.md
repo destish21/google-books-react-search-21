@@ -110,7 +110,7 @@
 
 ## Developers Contact Information
    * LinkdIn Profile : [Desta Mulualem](https://www.linkedin.com/in/desta-mulualem-6718b1203/)
-   * Deployed URL : N/A
+   * Deployed URL : https://google-books-react-search21.herokuapp.com/
    * github URL :   https://github.com/destish21/google-books-react-search-21
    * My ResumGoogleDocs Link: [Resume Link](https://docs.google.com/document/d/1kLc-bR0cb3ASljSuCPTRCOJI1B2KnBIMRpskvdM__WE/edit?usp=sharing)
 
