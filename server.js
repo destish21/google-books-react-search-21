@@ -1,6 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 require('dotenv').config();
+const cors = require('cors');
 
 const app = express();
 const PORT = process.env.PORT;
@@ -8,6 +9,7 @@ const PORT = process.env.PORT;
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(cors());
 
 // Serve up static assets (usually on heroku)
 if (process.env.NODE_ENV === "production") {
@@ -21,7 +23,9 @@ app.use(routes);
 const url = process.env.MONGODB_URI 
 mongoose.connect(url, 
   { useNewUrlParser: true, 
-    useUnifiedTopology: true 
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+    useFindAndModify: false 
   },() =>console.log('db connected'));
 
 // Start the API server
