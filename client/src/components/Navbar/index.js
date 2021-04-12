@@ -8,7 +8,6 @@ const Navbar = () => {
 
         <nav className="navbar navbar-expand-lg text-light">
             <div className="container">
-                
                 <ul className="navbar-nav">
                 <Link className="navbar-brand" to="/">Google Books</Link>
                     <li className="nav-item">
@@ -17,6 +16,7 @@ const Navbar = () => {
                             className={window.location.pathname === "/search" ? "nav-link active" : "nav-link"}
                         > Search</Link>
                     </li>
+                    
                     <li className="nav-item">
                         <Link
                             to="/saved"

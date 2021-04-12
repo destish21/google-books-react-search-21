@@ -4,7 +4,7 @@ import NavBar from "./components/Navbar";
 import Header from "./components/Header";
 import Wrapper from "./components/Wrapper";
 
-import NoMatch from "./pages//noMatch";
+import match from "./pages//match";
 import Search from "./pages/search";
 import Saved from "./pages/saved";
 import './App.css';
@@ -21,7 +21,7 @@ class App extends Component {
             <Route exact path="/" component={Search} />
             <Route exact path="/search" component={Search} />
             <Route exact path="/saved" component={Saved} />
-            <Route exact path="/noMatch" component={NoMatch} />
+            <Route exact path="/match" component={match} />
           </Wrapper>
         </div>
       </Router>

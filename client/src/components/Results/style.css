@@ -1,9 +1,15 @@
 .img-fluid {
-    width:75%;
+    width:300%;
     margin-left: 50px;
-    height: 40%;
-}
+    height: auto;
+} 
 .card-body {
     width: 70%;
     margin-left: 50px;
+}
+
+img {
+    vertical-align: middle;
+    margin-top: 20px;
+    border-style: none;
 }

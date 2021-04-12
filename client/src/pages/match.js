@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 
-const NoMatch = () => {
+const match = () => {
     return (
         <div>
             <Header>
@@ -16,4 +16,4 @@ const NoMatch = () => {
     );
 }
 
-export default NoMatch;
+export default match;
