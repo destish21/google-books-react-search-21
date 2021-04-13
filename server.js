@@ -11,10 +11,6 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cors());
 
-// Serve up static assets (usually on heroku)
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static("client/build"));
-}
 // Add routes, both API and view
 const routes = require("./routes");
 app.use(routes);
@@ -28,6 +24,11 @@ mongoose.connect(url,
     useFindAndModify: false 
   }).then(() => console.log('mongodb connected'))
   .catch(error => console.log('mongodb connection', error));
+
+  // Serve up static assets (usually on heroku)
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+}
 
 // Start the API server
 app.listen(PORT, function() {
