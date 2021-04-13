@@ -44,7 +44,7 @@
  
    * You can View the stored database in a Google Books React Search folder interms of data.js.
 
-   * The app runs as a `npm start` to gather information about react Google Books React Search. 
+   * The app runs as a `npm start:dev` to run font end and back end together react Google Books React Search. 
 
    * My Google Books React Search web applications react app that is readable, reliable, and maintainable Oftentimes, node_modules,  main Readme, Screenshots.
 
