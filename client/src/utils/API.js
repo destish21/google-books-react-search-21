@@ -16,7 +16,7 @@ var API = {
         return axios.get("/api/books").then(result => result.data);
     },
 
-    // Gets book with the given ID
+    // Gets book with the given ID coming soon
     // savedBook: function(id) {
     //     return axios.get("/api/books/" + id);
     // },
