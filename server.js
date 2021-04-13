@@ -26,7 +26,8 @@ mongoose.connect(url,
     useUnifiedTopology: true,
     useCreateIndex: true,
     useFindAndModify: false 
-  },() =>console.log('db connected'));
+  }).then(() => console.log('mongodb connected'))
+  .catch(error => console.log('mongodb connection', error));
 
 // Start the API server
 app.listen(PORT, function() {
